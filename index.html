@@ -1,96 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <main class="container-lg row mx-auto ">
-        <div class="menu col-sm-5 col-md-4 col-lg-3 bg-dark text-light p-0 fw-bold">
-            <!-- сменить цвет фона меню -->
-            <img class="logo p-3 mx-auto" src="images/icons/logo.png" alt="">
-            <nav class="nav flex-column text-uppercase">
-                <a class="nav-link text-light py-3 px-5 border-bottom  border-top border-2 border-black" href="#">Dashboard</a>
-                <a class="nav-link text-light py-3 px-5 border-bottom border-2 border-black" href="#">Users</a>
-                <a class="nav-link text-light py-3 px-5 border-bottom border-2 border-black" href="#">file manager</a>
-                <a class="nav-link text-light py-3 px-5 border-bottom border-2 border-black" href="#">Posts</a>
-                <a class="nav-link text-light py-3 px-5 border-bottom border-2 border-black" href="#">Events</a>
-                <a class="nav-link text-light py-3 px-5 border-bottom border-2 border-black" href="#">Ссылка123456</a>
-            </nav>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container-lg row mx-auto position-relative">
+      <div
+        class="menu col-sm-5 col-md-4 col-lg-3 bg-dark text-light p-0 fw-bold top-0 start-0 align-self-start"
+      >
+        <!-- сменить цвет фона меню на свой код чвета. какие есть варианты-->
+        <img class="logo p-3 mx-auto" src="images/icons/logo.png" alt="" />
+        <nav class="nav flex-column text-uppercase">
+          <a
+            class="nav-link text-light py-3 px-5 border-bottom border-top border-2 border-black"
+            href="#"
+            >Dashboard</a
+          >
+          <a
+            class="nav-link text-light py-3 px-5 border-bottom border-2 border-black"
+            href="#"
+            >Users</a
+          >
+          <a
+            class="nav-link text-light py-3 px-5 border-bottom border-2 border-black"
+            href="#"
+            >file manager</a
+          >
+          <a
+            class="nav-link text-light py-3 px-5 border-bottom border-2 border-black"
+            href="#"
+            >Posts</a
+          >
+          <a
+            class="nav-link text-light py-3 px-5 border-bottom border-2 border-black"
+            href="#"
+            >Events</a
+          >
+          <a
+            class="nav-link text-light py-3 px-5 border-bottom border-2 border-black"
+            href="#"
+            >Ссылка123456</a
+          >
+        </nav>
+      </div>
+      <div
+        class="main-content col-sm-7 col-md-8 col-lg-9 bg-secondary-subtle p-3 p-md-5"
+      >
+        <h1>Dashboard 2024</h1>
+        <div class="graphics text-uppercase d-lg-flex column-gap-4 mb-4">
+          <div class="trafic bg-light w-100 mb-4 mb-lg-0 p-4">
+            <h2 class="fs-5 fw-bold">Trafic</h2>
+            <img class="my-img" src="images/chart1.png" alt="" />
+          </div>
+          <div class="loads bg-light w-100 p-4">
+            <h2 class="fs-5 fw-bold">Loads</h2>
+            <img class="my-img" src="images/chart2.png" alt="" />
+          </div>
         </div>
-        <div class="main-content col-sm-7 col-md-8 col-lg-9 bg-secondary-subtle p-3 p-md-5">
-            <h1>Dashboard 2024</h1>
-            <div class="graphics row text-uppercase           ">
-                <!-- сделать промежутки между колонками -->
-                <div class="trafic col-lg-6 p-5 bg-light">
-                    <h2 class="fs-5 fw-bold">Trafic</h2>
-                    <img class="my-img " src="images/chart1.png" alt="">
-                </div>
-                <div class="loads col-lg-6 p-5 bg-light">
-                    <h2 class="fs-5 fw-bold">Loads</h2>
-                    <img class="my-img " src="images/chart2.png" alt="">
-                </div>
-            </div>
-            <div class="row bg-light p-3">
-
-
-                <table class="table bg-light ">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Autor</th>
-                        <th scope="col">Date</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Lorem, ipsum dolor.</td>
-                        <td>Ivanov Ivan</td>
-                        <td>27/03/2023</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Lorem ipsum dolor sit.</td>
-                        <td>Sidorov Pavel</td>
-                        <td>21/03/21</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Lorem ipsum dolor sit. 4254 3453</td>
-                        <td>Sidorov Pavel</td>
-                        <td>21/01/21</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>Lorem ipsum dolor sit amet consectetur.</td>
-                        <td>Dilonov Pavel</td>
-                        <td>21/02/12</td>
-                      </tr>
-
-                    </tbody>
-                  </table>
-
-
-
-            </div>
-
-
+        <div class="row bg-light p-3 m-0">
+          <h2 class="fs-5 fw-bold">Recent activity</h2>
+          <table class="table table-light table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Autor</th>
+                <th scope="col">Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Lorem, ipsum dolor.</td>
+                <td>Ivanov Ivan</td>
+                <td>27/03/2023</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Lorem ipsum dolor sit.</td>
+                <td>Sidorov Pavel</td>
+                <td>21/03/21</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Lorem ipsum dolor sit. 4254 3453</td>
+                <td>Sidorov Pavel</td>
+                <td>21/01/21</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Lorem ipsum dolor sit amet consectetur.</td>
+                <td>Dilonov Pavel</td>
+                <td>21/02/12</td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Lorem, ipsum dolor.</td>
+                <td>Ivanov Ivan</td>
+                <td>27/03/2023</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Lorem ipsum dolor sit.</td>
+                <td>Sidorov Pavel</td>
+                <td>21/03/21</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Lorem ipsum dolor sit. 4254 3453</td>
+                <td>Sidorov Pavel</td>
+                <td>21/01/21</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Lorem ipsum dolor sit amet consectetur.</td>
+                <td>Dilonov Pavel</td>
+                <td>21/02/12</td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Lorem, ipsum dolor.</td>
+                <td>Ivanov Ivan</td>
+                <td>27/03/2023</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Lorem ipsum dolor sit.</td>
+                <td>Sidorov Pavel</td>
+                <td>21/03/21</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Lorem ipsum dolor sit. 4254 3453</td>
+                <td>Sidorov Pavel</td>
+                <td>21/01/21</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Lorem ipsum dolor sit amet consectetur.</td>
+                <td>Dilonov Pavel</td>
+                <td>21/02/12</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-
-
-
-
+      </div>
     </main>
 
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

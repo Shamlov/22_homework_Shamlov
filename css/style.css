@@ -1,23 +1,26 @@
-main {
-  min-height: 100vh;
-}
-
 .logo {
   display: block;
   height: 150px;
+}
+
+.my-img {
+  max-width: 170px;
+  display: block;
+  margin: 0 auto;
+}
+
+nav > a:hover {
+  background-color: rgb(185, 71, 71);
+}
+
+@media screen and (min-width: 576px) {
+  .menu {
+    position: sticky;
+    height: 100vh;
+  }
 }
 @media screen and (max-width: 576px) {
   .logo {
     height: 70px;
   }
-}
-
-.my-img {
-  max-width: 150px;
-  display: block;
-  margin: 0 auto;
-}
-
-.table {
-  background-color: red;
 }/*# sourceMappingURL=style.css.map */
