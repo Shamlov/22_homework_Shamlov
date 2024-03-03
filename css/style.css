@@ -1,0 +1,23 @@
+main {
+  min-height: 100vh;
+}
+
+.logo {
+  display: block;
+  height: 150px;
+}
+@media screen and (max-width: 576px) {
+  .logo {
+    height: 70px;
+  }
+}
+
+.my-img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.table {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

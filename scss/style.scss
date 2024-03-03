@@ -1,0 +1,25 @@
+// :root {
+//   --bs-dark-rgb:rgb(129, 76, 76);
+// }
+
+main {
+  min-height: 100vh;
+}
+.logo {
+  display: block;
+  height: 150px;
+  @media screen and (max-width: 576px) {
+    height: 70px;
+  }
+}
+
+.my-img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.table {
+  background-color: red;
+}
+
